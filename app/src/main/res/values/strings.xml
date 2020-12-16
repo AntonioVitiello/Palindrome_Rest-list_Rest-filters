@@ -1,0 +1,15 @@
+<resources>
+    <string name="is_palindrome_app_name">Is Palindrome?</string>
+    <string name="load_rest_app_name">Load Posts</string>
+    <string name="is_palindrome_label">\"%s\" is %s a palindrome</string>
+    <string name="generic_network_error_message">Errore di rete, riprova più tardi.</string>
+
+    <string name="user_id">User id: %s</string>
+    <string name="post_title">Title: %s</string>
+    <string name="post_description">Description: %s</string>
+    <string name="rest_list_label">rest-list</string>
+    <string name="rest_filters_label">rest-filters</string>
+    <string name="palindrome_label">palindrome</string>
+    <string name="filter">Filtro</string>
+
+</resources>

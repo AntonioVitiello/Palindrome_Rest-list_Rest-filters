@@ -1,0 +1,45 @@
+* Each project should build and run properly.
+* Code style, code tidiness, comments are a plus.
+
+Task 1
+
+Language
+Java or Kotlin
+
+Description
+Write a function that returns a boolean value indicating whether the string passed as an argument is palindrome or not.
+Bonus points if the function is written as an extension in Kotlin.
+
+Note: the function should ignore case, but consider whitespaces and other characters. Eg: "Radar" is palindrome, but "never odd or even" is not.
+
+Note: you are free to use any library or paradigm you think fits best.
+How to submit
+Send us the complete project compressed and named 'palindrome.zip'.
+
+
+Task 2
+
+Language
+Java or Kotlin
+
+Description
+Write a simple app that performs a GET request on this endpoint:
+http://www.mocky.io/v2/59f2e79c2f0000ae29542931
+The result should be used to display a list of posts to the user, with image, title, published date and description.
+
+Note: you are free to use any library or paradigm you think fits best.
+How to submit
+Send us the complete project compressed and named 'rest-list.zip'.
+
+
+Task 3
+
+Language
+Java or Kotlin
+
+Description
+From the app you wrote for Task 2, add a button in the toolbar that acts as a toggle. When the toggle is disabled (the default state) all posts should be shown, when it is enabled (after a tap) the list should only show the posts having user_id set to 1 and sorted by descending published_at. Tapping on the button again will return it to its default state.
+
+Note: you are free to use any library or paradigm you think fits best.
+How to submit
+Send us the complete project compressed and named 'rest-filters.zip'.
