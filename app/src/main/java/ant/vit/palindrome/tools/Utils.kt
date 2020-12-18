@@ -9,7 +9,7 @@ import java.util.*
  */
 class Utils {
     companion object {
-        val onlyAlphaRegex by lazy(LazyThreadSafetyMode.NONE) { "[A-Za-z]".toRegex() }
+        val onlyAlphaRegex by lazy(LazyThreadSafetyMode.NONE) { "[^A-Za-z\\s]".toRegex() }
 
         //eg: 2017-01-29 23:42:03
         val yearDateFormat by lazy(LazyThreadSafetyMode.NONE) {

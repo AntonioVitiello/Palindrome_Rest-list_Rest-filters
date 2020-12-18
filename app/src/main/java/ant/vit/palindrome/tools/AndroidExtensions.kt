@@ -28,11 +28,10 @@ fun String.isPalindrome(): Boolean {
 
 fun String.isPalindromeOnlyAlpha(): Boolean {
     val normalizedString =
-        replace(Utils.onlyAlphaRegex, " ").toLowerCase(Locale.getDefault())
+        replace(Utils.onlyAlphaRegex, "").toLowerCase(Locale.getDefault())
     val splits = normalizedString.split(" ")
     val reversedString = splits.joinToString(" ") { split -> split.reversed() }
-    Log.d(
-        "isPalindrome",
+    Log.d("isPalindrome",
         "isPalindrome:${normalizedString == reversedString} - normalizedString:$normalizedString - reversedString:$reversedString"
     )
     return normalizedString == reversedString
