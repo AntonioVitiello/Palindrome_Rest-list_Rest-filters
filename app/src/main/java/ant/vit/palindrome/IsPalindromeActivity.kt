@@ -11,10 +11,6 @@ import kotlinx.android.synthetic.main.activity_is_palindrome.*
  */
 class IsPalindromeActivity : AppCompatActivity() {
 
-    companion object {
-        val onlyAlphaRegex by lazy(LazyThreadSafetyMode.NONE) { "[^A-Za-z]".toRegex() }
-    }
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_is_palindrome)
