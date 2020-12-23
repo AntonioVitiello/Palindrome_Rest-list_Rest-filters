@@ -1,9 +1,10 @@
-package ant.vit.palindrome
+package ant.vit.palindrome.ui.adapter
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import ant.vit.palindrome.R
 import ant.vit.palindrome.model.RestModel
 import ant.vit.palindrome.tools.loadImage
 import kotlinx.android.synthetic.main.item_post.view.*

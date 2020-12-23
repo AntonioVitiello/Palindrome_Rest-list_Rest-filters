@@ -1,8 +1,9 @@
-package ant.vit.palindrome
+package ant.vit.palindrome.ui
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import ant.vit.palindrome.R
 import ant.vit.palindrome.tools.isPalindrome
 import kotlinx.android.synthetic.main.activity_is_palindrome.*
 

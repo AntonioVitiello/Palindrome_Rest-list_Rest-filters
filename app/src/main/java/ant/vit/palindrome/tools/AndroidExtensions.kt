@@ -3,7 +3,6 @@ package ant.vit.palindrome.tools
 import android.util.Log
 import android.widget.ImageView
 import androidx.lifecycle.MutableLiveData
-import ant.vit.palindrome.IsPalindromeActivity
 import ant.vit.palindrome.R
 import com.squareup.picasso.Callback
 import com.squareup.picasso.Picasso

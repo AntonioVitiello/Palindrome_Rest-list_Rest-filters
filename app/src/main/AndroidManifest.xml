@@ -11,7 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Palindrome">
-        <activity android:name=".IsPalindromeActivity">
+        <activity android:name=".ui.IsPalindromeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,7 +20,7 @@
         </activity>
 
         <activity
-            android:name=".LoadPostActivity"
+            android:name=".ui.LoadPostActivity"
             android:icon="@mipmap/ic_launcher"
             android:label="@string/load_rest_app_name"
             android:roundIcon="@mipmap/ic_launcher_round"

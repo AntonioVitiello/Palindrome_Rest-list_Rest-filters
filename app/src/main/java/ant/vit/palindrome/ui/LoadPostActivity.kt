@@ -1,4 +1,4 @@
-package ant.vit.palindrome
+package ant.vit.palindrome.ui
 
 import android.content.Intent
 import android.os.Bundle
@@ -8,6 +8,8 @@ import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
+import ant.vit.palindrome.ui.adapter.PostListAdapter
+import ant.vit.palindrome.R
 import ant.vit.palindrome.model.RestModel
 import ant.vit.palindrome.tools.SingleEvent
 import ant.vit.palindrome.viewmodel.LoadRestViewModel
